@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width">
+    <link type="text/css" rel="stylesheet" href="Content/css/swiper.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/common.css">
+    <link type="text/css" rel="stylesheet" href="Content/css/style.css">
+</head>
+<body ng-app="app">
+<header class=header>
+    <ul class="list">
+        <li>原创</li>
+        <li>优创+</li>
+        <li>视频</li>
+        <li>推荐</li>
+        <li class="first">游记</li>
+    </ul>
+    <div class="more">
+        <i class="fa fa-bars"></i>
+    </div>
+    <div class="search">
+        <i class="fa fa-search"></i>
+    </div>
+</header>
+<section class="content">
+    <ui-view></ui-view>
+</section>
+<footer class="footer">
+    <dl class="footer-font">
+        <dt><i class="fa fa-home"></i></dt>
+        <dd>首页</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-book"></i></dt>
+        <dd>论坛</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-car"></i></dt>
+        <dd>选车</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-bell"></i></dt>
+        <dd>发现</dd>
+    </dl>
+    <dl>
+        <dt><i class="fa fa-user"></i></dt>
+        <dd>未登录</dd>
+    </dl>
+</footer>
+
+<script type="text/javascript" src="Script/angular/angular.min.js"></script>
+<script type="text/javascript" src="Script/angular/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="Script/js/swiper.min.js"></script>
+<script type="text/javascript" src="App/app.js"></script>
+
+<script type="text/javascript" src="App/Server/baseServer.js"></script>
+<script type="text/javascript" src="App/Server/youjiServer.js"></script>
+
+<script type="text/javascript" src="App/Controllers/youjiController.js"></script>
+<script type="text/javascript" src="App/Directives/youjiDirective.js"></script>
+</body>
+</html>

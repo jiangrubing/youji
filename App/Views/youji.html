@@ -1,0 +1,80 @@
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="Content/images/banner_1 (2).jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="Content/images/banner_1 (2).jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="Content/images/banner_1 (2).jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="search-2">
+    <div class="search-font">
+        <i class="fa fa-search"></i>
+    </div>
+    <input type="text" id="txt" placeholder="搜索游记">
+</div>
+<div class="menu">
+    <span>北京</span>
+    <span>西藏</span>
+    <span>三亚</span>
+    <span>成都</span>
+    <span>更多</span>
+</div>
+<div class="main">
+    <header class="head">
+        <h3>小编原创 <i>罗浩原创</i></h3><span class="float-right">全部 <i class="fa fa-angle-right"></i></span>
+    </header>
+    <dl>
+        <dd><h3>独闯美国第二季  美国东海岸游记（下）</h3></dd>
+        <dt><img src="Content/images/banner_1 (3).jpg" alt=""></dt>
+    </dl>
+    <p class="last">3837.9万人浏览<span class="float-right">2-6</span></p>
+</div>
+<div class="main">
+    <header class="head">
+        <h3>小编原创</h3><span class="float-right">全部 <i class="fa fa-angle-right"></i></span>
+    </header>
+    <dl>
+        <dd><h3>辽宁本溪：南芬大峡谷-吓退司马懿</h3></dd>
+        <dt><img src="Content/images/banner_1 (4).jpg" alt=""></dt>
+    </dl>
+    <p class="last">3837.9万人浏览<span class="float-right">2-6</span></p>
+</div>
+<div class="list-main">
+    <header class="head">
+        <h3>精彩游记</h3><span class="float-right">全部 <i class="fa fa-angle-right"></i></span>
+    </header>
+    <dl ng-repeat="getDatas in getData">
+        <dd>
+            <p>{{getDatas.title}}</p>
+            <p class="last">
+                {{getDatas.cont}} <span class="float-right">{{getDatas.data}}</span>
+            </p>
+        </dd>
+        <dt><img ng-src="{{getDatas.images}}" alt=""></dt>
+    </dl>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,197 @@
+body {
+  width: 100%;
+  position: absolute;
+  background: #e7e4e4;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: 0.12rem; }
+
+.header {
+  height: 0.38rem;
+  background: #fff;
+  line-height: 0.38rem; }
+  .header ul {
+    width: 80%;
+    text-align: center; }
+    .header ul li {
+      width: 18%;
+      float: left;
+      line-height: 0.38rem;
+      color: #aeaeae;
+      font-size: 0.14rem; }
+    .header ul .first {
+      color: #666;
+      font-weight: bold;
+      font-size: 0.15rem;
+      border-bottom: 1px solid #666; }
+  .header .more {
+    position: absolute;
+    top: 0;
+    right: 0.48rem; }
+    .header .more > i {
+      font-size: 0.18rem;
+      color: #aeaeae; }
+  .header .search {
+    position: absolute;
+    top: 0;
+    right: 0.1rem; }
+    .header .search > i {
+      font-size: 0.18rem;
+      color: #aeaeae; }
+
+.content {
+  -webkit-flex: 1;
+  overflow-y: scroll; }
+
+.banner {
+  width: 100%;
+  height: auto; }
+  .banner .swiper-container {
+    width: 100%;
+    height: 100%; }
+    .banner .swiper-container .swiper-wrapper {
+      width: 100%;
+      height: auto; }
+      .banner .swiper-container .swiper-wrapper .swiper-slide {
+        width: 100%;
+        height: auto; }
+        .banner .swiper-container .swiper-wrapper .swiper-slide img {
+          width: 100%;
+          height: 100%; }
+
+.search-2 {
+  padding: 0.08rem;
+  position: relative;
+  margin-top: 0.05rem;
+  background: #fff; }
+  .search-2 #txt {
+    border: none;
+    width: 100%;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
+    box-sizing: border-box;
+    border: 1px solid #ccc; }
+  .search-2 .search-font {
+    position: absolute;
+    top: 0.12rem;
+    left: 0.2rem; }
+    .search-2 .search-font > i {
+      color: #848484; }
+
+.menu {
+  text-align: center;
+  height: 0.4rem;
+  line-height: 0.35rem;
+  background: #fff; }
+  .menu span {
+    width: 25%;
+    margin-left: 0.06rem;
+    margin-right: 0.06rem;
+    border: 1px solid #acc9ff;
+    color: #acc9ff;
+    padding-top: 0.05rem;
+    padding-bottom: 0.05rem;
+    padding-left: 0.11rem;
+    padding-right: 0.11rem; }
+
+.main {
+  margin-top: 0.05rem;
+  background: #fff;
+  padding: 0.1rem;
+  box-sizing: border-box; }
+  .main .head {
+    height: 0.38rem;
+    line-height: 0.38rem; }
+    .main .head h3 {
+      color: #787878;
+      font-size: 0.14rem;
+      display: inline-block; }
+      .main .head h3 i {
+        border: 1px solid #aac8ff;
+        color: #aac8ff;
+        font-size: 0.12rem; }
+    .main .head span {
+      color: #a5a5a5;
+      display: inline-block; }
+      .main .head span > i {
+        padding: 0.1rem;
+        font-size: 0.15rem; }
+  .main dl dt {
+    width: 100%;
+    height: auto;
+    margin-top: 0.1rem; }
+    .main dl dt img {
+      width: 100%;
+      height: 100%; }
+  .main .last {
+    margin-top: 0.05rem;
+    color: #b3b3b3; }
+
+.list-main {
+  margin-top: 0.05rem;
+  background: #fff;
+  padding: 0.1rem;
+  box-sizing: border-box; }
+  .list-main .head {
+    height: 0.38rem;
+    line-height: 0.38rem; }
+    .list-main .head h3 {
+      color: #787878;
+      font-size: 0.14rem;
+      display: inline-block; }
+      .list-main .head h3 i {
+        transform: scale(0.9);
+        border: 1px solid #aac8ff;
+        color: #aac8ff;
+        font-size: 0.12rem; }
+    .list-main .head span {
+      color: #a5a5a5;
+      display: inline-block; }
+      .list-main .head span > i {
+        padding: 0.1rem;
+        font-size: 0.15rem; }
+  .list-main dl {
+    height: 0.8rem;
+    border-bottom: 1px solid #ccc; }
+    .list-main dl dt {
+      display: inline-block;
+      float: right;
+      width: 40%;
+      height: 0.75rem; }
+      .list-main dl dt > img {
+        width: 100%;
+        height: 100%; }
+    .list-main dl dd {
+      width: 58%;
+      line-height: 0.25rem;
+      display: inline-block; }
+    .list-main dl .last {
+      color: #ccc;
+      line-height: 0.3rem; }
+
+.footer {
+  height: 0.38rem;
+  background: #fff;
+  display: -webkit-flex; }
+  .footer dl {
+    -webkit-flex: 1;
+    text-align: center; }
+    .footer dl dt {
+      padding-top: 0.05rem; }
+      .footer dl dt > i {
+        font-size: 0.18rem;
+        color: #bebebe; }
+    .footer dl dd {
+      font-size: 0.12rem;
+      color: #bebebe;
+      transform: scale(0.9); }
+  .footer .footer-font dt > i {
+    color: #39cccc; }
+  .footer .footer-font dd {
+    color: #39cccc; }
+
+/*# sourceMappingURL=style.css.map */
